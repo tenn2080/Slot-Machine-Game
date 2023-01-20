@@ -1,4 +1,4 @@
-def deposit():
+def deposit_money():
     while True:
         # this is string
         amount = input("How much would you like to deposit? $") 
@@ -15,4 +15,4 @@ def deposit():
     return amount
 
 # calling the function
-deposit() 
+deposit_money() 
